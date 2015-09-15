@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowRadioGroup">
+        <attr name="android:orientation" />
+        <attr name="radio_direction" format="enum">
+            <enum name="ltr" value="0" />
+            <enum name="rtl" value="1" />
+        </attr>
+        <attr name="debug_draw" format="boolean" />
+        <attr name="weight_default" format="float" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="FlowRadioGroup_LayoutParams">
+        <attr name="radio_new_line" format="boolean" />
+        <attr name="radio_weight" format="float" />
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+    
+</resources>
